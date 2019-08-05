@@ -4,5 +4,5 @@ The Instagram Graph API allows apps to access data in Instagram Business Account
 
 Nuget package manager command:
 ```
-PM> Install-Package Miladsoft.InstagramGraphApiCsharp -Version 1.0.0
+PM> Install-Package Miladsoft.InstagramGraphApi
 ```
