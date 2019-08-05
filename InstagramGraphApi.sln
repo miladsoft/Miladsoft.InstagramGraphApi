@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramGraphApi", "InstagramGraphApi\InstagramGraphApi.csproj", "{249499D3-F667-4619-B6D3-84AB7BF16BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Teste", "ConsoleApp.Teste\ConsoleApp.Teste.csproj", "{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249499D3-F667-4619-B6D3-84AB7BF16BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249499D3-F667-4619-B6D3-84AB7BF16BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249499D3-F667-4619-B6D3-84AB7BF16BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249499D3-F667-4619-B6D3-84AB7BF16BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C2AAEF3-D303-470C-BEA2-E72C597227A9}
+	EndGlobalSection
+EndGlobal

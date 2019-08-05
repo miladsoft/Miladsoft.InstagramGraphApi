@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{249499D3-F667-4619-B6D3-84AB7BF16BD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InstagramGraphApi</RootNamespace>
+    <AssemblyName>InstagramGraphApi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Instagram.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API\Builder\IInstagramGraphApiBuilder.cs" />
+    <Compile Include="API\Builder\InstagramGraphApiBuilder.cs" />
+    <Compile Include="API\IInstagramGraphApi.cs" />
+    <Compile Include="API\InstagramGraphApi.cs" />
+    <Compile Include="API\Constants\InstagramGraphApiConstants.cs" />
+    <Compile Include="API\Services\ActionsService.cs" />
+    <Compile Include="API\Services\HashtagService.cs" />
+    <Compile Include="API\Services\Interfaces\IActionsService.cs" />
+    <Compile Include="API\Services\Interfaces\IHashtagService.cs" />
+    <Compile Include="API\Services\Interfaces\IMediaService.cs" />
+    <Compile Include="API\Services\Interfaces\ISearchService.cs" />
+    <Compile Include="API\Services\Interfaces\IUserService.cs" />
+    <Compile Include="API\Services\MediaService.cs" />
+    <Compile Include="API\Services\SearchService.cs" />
+    <Compile Include="API\Services\UserService.cs" />
+    <Compile Include="Classes\AuthenticatedLogin.cs" />
+    <Compile Include="Classes\Enums\MediaType.cs" />
+    <Compile Include="Classes\Enums\ResponseType.cs" />
+    <Compile Include="Classes\Interfaces\IResult.cs" />
+    <Compile Include="Classes\Response\BadStatusResponse.cs" />
+    <Compile Include="Classes\Response\BaseStatusResponse.cs" />
+    <Compile Include="Classes\Result.cs" />
+    <Compile Include="Classes\ResultInfo.cs" />
+    <Compile Include="Classes\UserSessionData.cs" />
+    <Compile Include="Entity\ActivityFeed.cs" />
+    <Compile Include="Entity\Comment.cs" />
+    <Compile Include="Entity\CommentResponse.cs" />
+    <Compile Include="Entity\DashInfo.cs" />
+    <Compile Include="Entity\Dimensions.cs" />
+    <Compile Include="Entity\DisplayResource.cs" />
+    <Compile Include="Entity\EdgeActivityCount.cs" />
+    <Compile Include="Entity\EdgeChaining.cs" />
+    <Compile Include="Entity\EdgeFollow.cs" />
+    <Compile Include="Entity\EdgeFollowedBy.cs" />
+    <Compile Include="Entity\EdgeFollowingHashtag.cs" />
+    <Compile Include="Entity\EdgeHashtagToMedia.cs" />
+    <Compile Include="Entity\EdgeHashtagToTopPosts.cs" />
+    <Compile Include="Entity\EdgeHighlightReels.cs" />
+    <Compile Include="Entity\EdgeLikedBy.cs" />
+    <Compile Include="Entity\EdgeMediaPreviewComment.cs" />
+    <Compile Include="Entity\EdgeMediaPreviewLike.cs" />
+    <Compile Include="Entity\EdgeMediaToCaption.cs" />
+    <Compile Include="Entity\EdgeMediaToComment.cs" />
+    <Compile Include="Entity\EdgeMediaToParentComment.cs" />
+    <Compile Include="Entity\EdgeMediaToTaggedUser.cs" />
+    <Compile Include="Entity\EdgeMutualFollowedBy.cs" />
+    <Compile Include="Entity\EdgeOwnerToTimelineMedia.cs" />
+    <Compile Include="Entity\EdgeReelsTrayToReel.cs" />
+    <Compile Include="Entity\EdgeSavedMedia.cs" />
+    <Compile Include="Entity\EdgeSidecarToChildren.cs" />
+    <Compile Include="Entity\EdgeThreadedComments.cs" />
+    <Compile Include="Entity\EdgeUserToPhotosOfYou.cs" />
+    <Compile Include="Entity\EdgeWebActivityFeed.cs" />
+    <Compile Include="Entity\EdgeWebDiscoverMedia.cs" />
+    <Compile Include="Entity\EdgeWebFeedTimeline.cs" />
+    <Compile Include="Entity\FeedReelsTray.cs" />
+    <Compile Include="Entity\Hashtag.cs" />
+    <Compile Include="Entity\HeaderMedia.cs" />
+    <Compile Include="Entity\Location.cs" />
+    <Compile Include="Entity\Owner.cs" />
+    <Compile Include="Entity\PageInfo.cs" />
+    <Compile Include="Entity\Place.cs" />
+    <Compile Include="Entity\Reel.cs" />
+    <Compile Include="Entity\SearchUser.cs" />
+    <Compile Include="Entity\ShortcodeMedia.cs" />
+    <Compile Include="Entity\ShortcodeMediaData.cs" />
+    <Compile Include="Entity\Story.cs" />
+    <Compile Include="Entity\TagData.cs" />
+    <Compile Include="Entity\ThumbnailResource.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\UserData.cs" />
+    <Compile Include="Helpers\ApplicationHelper.cs" />
+    <Compile Include="Helpers\CustomExtensions.cs" />
+    <Compile Include="Helpers\ErrorHandlingHelper.cs" />
+    <Compile Include="Helpers\HttpHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Instagram.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
