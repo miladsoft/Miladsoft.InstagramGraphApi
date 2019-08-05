@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/miladsoft/InstagramGraphApi</projectUrl>
+    <iconUrl>http://icons.iconarchive.com/icons/uiconstock/flatin-social/64/instagram-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>The Instagram Graph API allows apps to access data in Instagram Business Accounts and Instagram Creator Accounts. By using the API, you can build apps that help Businesses and Creators manage their photos, videos, stories, albums, comments, and hashtags at scale, as well as measure social interactions with other Instagram users.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Instagram InstagramGraphApi Instagram_Graph_Api Instagram_Api Api</tags>
+  </metadata>
+</package>

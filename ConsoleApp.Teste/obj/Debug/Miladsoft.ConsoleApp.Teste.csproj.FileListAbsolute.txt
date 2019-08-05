@@ -1,0 +1,13 @@
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Miladsoft.ConsoleApp.Teste.exe.config
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Miladsoft.ConsoleApp.Teste.exe
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Miladsoft.ConsoleApp.Teste.pdb
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Miladsoft.InstagramGraphApi.dll
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Newtonsoft.Json.dll
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Miladsoft.InstagramGraphApi.pdb
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Newtonsoft.Json.pdb
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\bin\Debug\Newtonsoft.Json.xml
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\obj\Debug\Miladsoft.ConsoleApp.Teste.csprojAssemblyReference.cache
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\obj\Debug\Miladsoft.ConsoleApp.Teste.csproj.CoreCompileInputs.cache
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\obj\Debug\Miladsoft.ConsoleApp.Teste.csproj.CopyComplete
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\obj\Debug\Miladsoft.ConsoleApp.Teste.exe
+E:\Programming\GitHub\InstagramGraphApi\ConsoleApp.Teste\obj\Debug\Miladsoft.ConsoleApp.Teste.pdb

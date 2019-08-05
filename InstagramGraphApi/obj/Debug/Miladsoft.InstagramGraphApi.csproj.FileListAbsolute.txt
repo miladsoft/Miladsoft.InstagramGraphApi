@@ -1,0 +1,9 @@
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Newtonsoft.Json.dll
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Newtonsoft.Json.pdb
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Newtonsoft.Json.xml
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.csproj.CoreCompileInputs.cache
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.csproj.CopyComplete
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.InstagramGraphApi.dll
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.InstagramGraphApi.pdb
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.dll
+E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.pdb

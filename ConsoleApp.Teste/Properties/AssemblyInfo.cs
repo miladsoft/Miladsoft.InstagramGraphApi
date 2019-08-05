@@ -2,7 +2,7 @@
  * Developer: Milad Raeisi [ miladsoft@yahoo.com ] [ My Telegram Account: https://t.me/miladsoft ]
  * 
  * Github source: https://github.com/miladsoft/InstagramGraphApi
- * Nuget package: https://www.nuget.org/packages/InstagramGraphApi
+ * Nuget package: https://www.nuget.org/packages/Miladsoft.InstagramGraphApi/
  * 
  */
 using System.Reflection;
@@ -12,11 +12,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleApp.Teste")]
+[assembly: AssemblyTitle("Miladsoft.ConsoleApp.Teste")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Miladsoft")]
-[assembly: AssemblyProduct("ConsoleApp.Teste")]
+[assembly: AssemblyProduct("Miladsoft.ConsoleApp.Teste")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("Miladsoft")]
 [assembly: AssemblyCulture("")]

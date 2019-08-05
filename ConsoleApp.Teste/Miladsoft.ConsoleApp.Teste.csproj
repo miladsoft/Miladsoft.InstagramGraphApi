@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C4DBC3B6-7E4B-45AD-A92B-F7A0582F6265}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp.Teste</RootNamespace>
-    <AssemblyName>ConsoleApp.Teste</AssemblyName>
+    <RootNamespace>Miladsoft.ConsoleApp.Teste</RootNamespace>
+    <AssemblyName>Miladsoft.ConsoleApp.Teste</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,9 +55,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InstagramGraphApi\InstagramGraphApi.csproj">
+    <ProjectReference Include="..\InstagramGraphApi\Miladsoft.InstagramGraphApi.csproj">
       <Project>{249499d3-f667-4619-b6d3-84ab7bf16bd8}</Project>
-      <Name>InstagramGraphApi</Name>
+      <Name>Miladsoft.InstagramGraphApi</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

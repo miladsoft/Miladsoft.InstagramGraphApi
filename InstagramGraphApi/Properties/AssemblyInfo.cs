@@ -2,7 +2,7 @@
  * Developer: Milad Raeisi [ miladsoft@yahoo.com ] [ My Telegram Account: https://t.me/miladsoft ]
  * 
  * Github source: https://github.com/miladsoft/InstagramGraphApi
- * Nuget package: https://www.nuget.org/packages/InstagramGraphApi
+ * Nuget package: https://www.nuget.org/packages/Miladsoft.InstagramGraphApi/
  * 
  */
 using System.Resources;
@@ -13,11 +13,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InstagramGraphApi")]
+[assembly: AssemblyTitle("Instagram Graph Api")]
 [assembly: AssemblyDescription("The Instagram Graph API allows apps to access data in Instagram Business Accounts and Instagram Creator Accounts. By using the API, you can build apps that help Businesses and Creators manage their photos, videos, stories, albums, comments, and hashtags at scale, as well as measure social interactions with other Instagram users.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Miladsoft")]
-[assembly: AssemblyProduct("InstagramGraphApi")]
+[assembly: AssemblyProduct("Instagram Graph Api")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("Miladsoft")]
 [assembly: AssemblyCulture("")]
@@ -40,7 +40,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.0.1")]
+[assembly: AssemblyFileVersion("1.0.0.1")]
 [assembly: NeutralResourcesLanguage("en")]
 
