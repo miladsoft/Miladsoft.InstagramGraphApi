@@ -7,3 +7,12 @@ E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.In
 E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.InstagramGraphApi.pdb
 E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.dll
 E:\Programming\GitHub\InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.pdb
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.InstagramGraphApi.dll
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\bin\Debug\Miladsoft.InstagramGraphApi.pdb
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\bin\Debug\Newtonsoft.Json.dll
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\bin\Debug\Newtonsoft.Json.xml
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.csproj.AssemblyReference.cache
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.csproj.CoreCompileInputs.cache
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.csproj.CopyComplete
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.dll
+D:\Github\Miladsoft\Miladsoft.InstagramGraphApi\InstagramGraphApi\obj\Debug\Miladsoft.InstagramGraphApi.pdb

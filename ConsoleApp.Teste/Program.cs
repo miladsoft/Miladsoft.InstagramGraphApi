@@ -44,7 +44,7 @@ namespace ConsoleApp.Teste
                 return;
             }
             //for example : 
-            var userDetails = testClass.GetUserDetailsTest("miladsoft_net");
+            var userDetails = testClass.GetUserDetailsTest("milad._.raeisi");
 
             Console.WriteLine("=================================");
         }
